@@ -1,0 +1,58 @@
+.post-container {
+    width: 600px;
+    height: auto;
+    border: #d3d3d3 solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vote {
+    background-color: #faf5f5;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    color: gray;
+}
+
+.up-vote:hover {
+    color: rgb(212, 2, 2);
+}
+
+.down-vote:hover {
+    color: rgb(39, 39, 221);
+}
+
+.content {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 5px 0px;
+}
+
+.posted-by {
+    margin: 0;
+    font-size: small;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    font-size: xx-small;
+}
+
+img {
+    display: flex;
+    width: 200px;
+    height: auto;
+    padding: 7px;
+}

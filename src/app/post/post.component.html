@@ -1,0 +1,13 @@
+<div class="post-container">
+  <div class="vote">
+    <button><i class="fas fa-arrow-up up-vote"></i></button>
+    <p>{{ post.data.score }}</p>
+    <button><i class="fas fa-arrow-down down-vote"></i></button>
+  </div>
+  <div class="content">
+    <p class="posted-by">Posted by {{ post.data.author }}</p>
+    <h3 class="title">{{ post.data.title }}</h3>
+    <a href="{{ post.data.url }}">See full post</a>
+    <img src="{{ post.data.thumbnail }}" alt="" />
+  </div>
+</div>

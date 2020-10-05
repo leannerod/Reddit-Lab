@@ -1,0 +1,13 @@
+<nav class="top-nav">
+    <img src="/assets/images/kisspng-reddit-logo-computer-icons-reddit-alien-5b16a57b946c57.285836041528210811608.png" alt="">
+    <h1>r/aww</h1>
+    <form action="">
+        <input type="text" placeholder="Search for a Subreddit">
+        <button><i class="fas fa-search"></i></button>
+    </form>
+</nav>
+<div class="post">
+    <app-post *ngFor="let post of posts; index as i" [post]="posts[i]">
+    </app-post>
+</div>
+

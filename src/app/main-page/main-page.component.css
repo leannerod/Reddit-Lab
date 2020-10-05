@@ -1,0 +1,35 @@
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+    height: 50px;
+    width: auto;
+}
+
+input {
+    font-family: 'roboto', sans-serif;
+    width: 250px;
+    padding:7px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.fa-search {
+    font-size: larger;
+    padding-left: 5px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
